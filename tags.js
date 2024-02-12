@@ -1,8 +1,10 @@
 
-// roughly based on https://github.com/tsoding/grecha.js
+
+// based on https://github.com/tsoding/grecha.js
 //==============================================================
 // BASICALLY REACT :)
 // =============================================================
+
 function tag(name, attrs={}) {
   let elem = document.createElement(name)
   for (attr in attrs) {
