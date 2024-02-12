@@ -20,6 +20,10 @@ function tag(name, attrs={}) {
   elem.$attrs = (attrs) => {
     elem.attributes = attrs
   }
+  elem.$onclick = (callback) => {
+    elem.onclick = callback
+    return elem
+  }
   elem.$id    = (id) => {
     elem.setAttribute("id", id)
     return elem
