@@ -103,8 +103,12 @@ function loadStyles(styles) {
   }
 }
 
+function isEmpty(obj) {
+    return Object.keys(obj).length === 0;
+}
 
-function initPage(styles, mainElem) {
+function initPage(mainElem, styles={}) {
   document.querySelector("body").appendChild(mainElem)
-  loadStyles(styles)
+  if (!isEmpty(styles))
+    loadStyles(styles)
 }
