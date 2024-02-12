@@ -57,7 +57,7 @@ function tag(name, attrs={}) {
   }
   return elem
 }
-const MUNDANE_TAGS = ["canvas", "h1", "h2", "h3", "p", "a", "div", "span", "select"];
+const MUNDANE_TAGS = ["canvas", "h1", "h2", "h3", "p", "a", "div", "span", "select", "button"];
 for (let tagName of MUNDANE_TAGS) {
     window[tagName] = (attrs) => tag(tagName, attrs);
 }
@@ -69,6 +69,7 @@ const input = (attrs={}) => tag("input", attrs)
 const ul = (attrs={}) => tag("ul", attrs)
 const li = (attrs={}) => tag("li", attrs)
 const img = (attrs={}) => tag("img", attrs)
+const br = () => tag("br")
 
 //=======================================================================
 // STYLES
