@@ -1,0 +1,23 @@
+{
+  "name": "tags.js",
+  "version": "1.0.0",
+  "description": "Html writing avoidance system",
+  "main": "tags.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/implicit-image/tags.js.git"
+  },
+  "keywords": [
+    "tag",
+    "html"
+  ],
+  "author": "Błażej Niewiadomski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/implicit-image/tags.js/issues"
+  },
+  "homepage": "https://github.com/implicit-image/tags.js#readme"
+}
